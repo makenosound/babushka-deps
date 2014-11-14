@@ -53,4 +53,10 @@ dep "personal" do
   requires "Theme - Soda.subl_package"
   requires "TomDoc.subl_package"
   requires "TrailingSpaces.subl_package"
+
+  # Sketch Plugins
+  requires "Content-generator-sketch-plugin.sketch_plugin"
+  requires "Sketch-Notebook.sketch_plugin"
+  requires "Makzan-Sketch-Plugin-Scripts.sketch_plugin"
+  requires "select-group-layers-sketch-plugin.sketch_plugin"
 end
