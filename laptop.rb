@@ -35,6 +35,9 @@ dep "personal" do
   requires "virtualbox"
   requires "vlc"
 
+  # SublimeLinters
+  requires "sublime_linters.npm"
+
   # Sublime Text 3 Packages
   requires "AdvancedNewFile.subl_package"
   requires "CodeFormatter.subl_package"
