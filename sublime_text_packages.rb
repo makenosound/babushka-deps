@@ -20,6 +20,10 @@ subl "GitGutter.subl_package" do
   source "https://github.com/jisaacks/GitGutter"
 end
 
+subl "JSConsoleSublimeSnippets.subl_package" do
+  source "https://github.com/caiogondim/js-console-sublime-snippets"
+end
+
 subl "JSX.subl_package" do
   source "https://github.com/masondesu/Sublime-JSX"
 end
