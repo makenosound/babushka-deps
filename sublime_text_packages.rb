@@ -12,6 +12,10 @@ subl "CoffeeScript.subl_package" do
   source "https://github.com/aponxi/sublime-better-coffeescript"
 end
 
+subl "Sublime-JSDocs.subl_package" do
+  source "https://github.com/spadgos/sublime-jsdocs"
+end
+
 subl "GitGutter.subl_package" do
   source "https://github.com/jisaacks/GitGutter"
 end
