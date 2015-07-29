@@ -32,6 +32,10 @@ subl "MarkdownEditing.subl_package" do
   source "https://github.com/SublimeText-Markdown/MarkdownEditing"
 end
 
+subl "Open-Include.subl_package" do
+  source "https://github.com/titoBouzout/Open-Include"
+end
+
 subl "PrettyJson.subl_package" do
   source "https://github.com/dzhibas/SublimePrettyJson"
 end

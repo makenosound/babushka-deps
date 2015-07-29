@@ -46,6 +46,7 @@ dep "personal" do
   requires "JSConsoleSublimeSnippets.subl_package"
   requires "JSX.subl_package"
   requires "MarkdownEditing.subl_package"
+  requires "Open-Include.subl_package"
   requires "PrettyJson.subl_package"
   requires "Ruby-Slim.subl_package"
   requires "SCSS.subl_package"
