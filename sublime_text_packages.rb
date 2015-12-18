@@ -60,7 +60,7 @@ subl "SublimeLinter.subl_package" do
   source "https://github.com/SublimeLinter/SublimeLinter3"
 end
 
-subl "SublimeLinter-eshint.subl_package" do
+subl "SublimeLinter-eslint.subl_package" do
   source "https://github.com/roadhump/SublimeLinter-eslint"
 end
 
