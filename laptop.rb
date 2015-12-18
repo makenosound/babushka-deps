@@ -38,9 +38,6 @@ dep "personal" do
   # NPM packages
   # SublimeLinters
   requires "sublime_linters.npm"
-  requires "eslint.npm"
-  requires "jshint.npm"
-  requires "jsxhint.npm"
 
   # Sublime Text 3 Packages
   requires "AdvancedNewFile.subl_package"
