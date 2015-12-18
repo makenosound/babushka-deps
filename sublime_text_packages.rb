@@ -12,6 +12,10 @@ subl "CoffeeScript.subl_package" do
   source "https://github.com/aponxi/sublime-better-coffeescript"
 end
 
+subl "CSS3.subl_package" do
+  source "https://github.com/y0ssar1an/CSS3"
+end
+
 subl "Sublime-JSDocs.subl_package" do
   source "https://github.com/spadgos/sublime-jsdocs"
 end
@@ -54,6 +58,10 @@ end
 
 subl "SublimeLinter.subl_package" do
   source "https://github.com/SublimeLinter/SublimeLinter3"
+end
+
+subl "SublimeLinter-eshint.subl_package" do
+  source "https://github.com/roadhump/SublimeLinter-eslint"
 end
 
 subl "SublimeLinter-jshint.subl_package" do

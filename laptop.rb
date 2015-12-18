@@ -35,13 +35,18 @@ dep "personal" do
   requires "virtualbox"
   requires "vlc"
 
+  # NPM packages
   # SublimeLinters
   requires "sublime_linters.npm"
+  requires "eslint.npm"
+  requires "jshint.npm"
+  requires "jsxhint.npm"
 
   # Sublime Text 3 Packages
   requires "AdvancedNewFile.subl_package"
   requires "CodeFormatter.subl_package"
   requires "CoffeeScript.subl_package"
+  requires "CSS3.subl_package"
   requires "GitGutter.subl_package"
   requires "JSConsoleSublimeSnippets.subl_package"
   requires "JSX.subl_package"
@@ -49,10 +54,10 @@ dep "personal" do
   requires "Open-Include.subl_package"
   requires "PrettyJson.subl_package"
   requires "Ruby-Slim.subl_package"
-  requires "SCSS.subl_package"
   requires "Sublime-Wrap-Plus.subl_package"
   requires "Sublime-JSDocs.subl_package"
   requires "SublimeLinter.subl_package"
+  requires "SublimeLinter-eslint.subl_package"
   requires "SublimeLinter-jshint.subl_package"
   requires "SublimeLinter-jsxhint.subl_package"
   requires "SublimeLinter-ruby.subl_package"
@@ -62,7 +67,5 @@ dep "personal" do
 
   # Sketch Plugins
   requires "Content-generator-sketch-plugin.sketch_plugin"
-  requires "Sketch-Notebook.sketch_plugin"
   requires "Makzan-Sketch-Plugin-Scripts.sketch_plugin"
-  requires "select-group-layers-sketch-plugin.sketch_plugin"
 end
