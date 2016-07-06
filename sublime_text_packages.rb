@@ -4,6 +4,10 @@ subl "AdvancedNewFile.subl_package" do
   source "https://github.com/skuroda/Sublime-AdvancedNewFile"
 end
 
+subl "Babel.subl_package" do
+  source "https://github.com/babel/babel-sublime"
+end
+
 subl "CodeFormatter.subl_package" do
   source "https://github.com/akalongman/sublimetext-codeformatter"
 end

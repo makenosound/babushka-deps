@@ -41,6 +41,7 @@ dep "personal" do
 
   # Sublime Text 3 Packages
   requires "AdvancedNewFile.subl_package"
+  requires "Babel.subl_package"
   requires "CodeFormatter.subl_package"
   requires "CoffeeScript.subl_package"
   requires "CSS3.subl_package"
