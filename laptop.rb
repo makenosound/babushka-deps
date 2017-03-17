@@ -2,6 +2,7 @@ dep "laptop" do
   # Build the standard Icelab environment
   requires "icelab:workstation"
 
+  # Require personal deps from below
   requires "personal"
 end
 
@@ -12,28 +13,37 @@ dep "personal" do
   requires "wget.managed"
 
   # Apps
+  requires "1password"
+  requires "charles"
+  requires "cloak"
+  requires "dash"
   requires "doxie"
   requires "firefox"
-  requires "fluid"
-  requires "gitx-rowanj"
+  requires "firefoxdeveloperedition"
   requires "google-chrome"
+  requires "handbrake"
   requires "hazel"
   requires "imageoptim"
+  requires "iterm2"
   requires "launchbar"
   requires "licecap"
   requires "mailplane"
-  requires "openemu"
-  requires "rdio"
-  requires "slack"
+  requires "postico"
+  requires "rowanj-gitx"
   requires "skype"
-  requires "sublime-text3"
+  requires "slack"
+  requires "spectacle"
+  requires "sublime-text"
   requires "superduper"
   requires "textexpander"
   requires "tokens"
   requires "transmit"
-  requires "onepassword"
   requires "virtualbox"
+  requires "visual-studio-code"
   requires "vlc"
+
+  # VS Code extensions
+  requires "vscode extensions"
 
   # NPM packages
   # SublimeLinters
@@ -61,8 +71,4 @@ dep "personal" do
   requires "Theme - Soda.subl_package"
   requires "TomDoc.subl_package"
   requires "TrailingSpaces.subl_package"
-
-  # Sketch Plugins
-  requires "Content-generator-sketch-plugin.sketch_plugin"
-  requires "Makzan-Sketch-Plugin-Scripts.sketch_plugin"
 end
