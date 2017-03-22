@@ -16,16 +16,27 @@ end
 
 extensions = %w[
   2gua.rainbow-brackets
+  CraigMaslowski.erb
+  dbaeumer.vscode-eslint
+  esbenp.prettier-vscode
+  formulahendry.auto-close-tag
   HookyQR.beautify
   IBM.output-colorizer
   jakelucas.code-file-nav
+  MattiasPernhult.vscode-todo
+  miguel-savignano.ruby-symbols
+  mrmlnc.vscode-scss
   Orta.vscode-danger
   ow.vscode-subword-navigation
-  Rubymaniac.vscode-paste-and-indent
+  PeterJausovec.vscode-docker
   rebornix.Ruby
+  Rubymaniac.vscode-paste-and-indent
   ryu1kn.annotator
+  shardulm94.trailing-spaces
   sianglim.slim
   steve8708.Align
+  stkb.rewrap
+  vilicvane.es-quotes
   wmaurer.change-case
 ].each do |ext|
   dep ext, :template => "code_extension"
