@@ -9,6 +9,9 @@ end
 dep "personal" do
   requires "personal dotfiles"
 
+  # OS X configuration
+  requires "os x configured"
+
   # Packages
   requires "wget.managed"
 
@@ -69,4 +72,8 @@ dep "personal" do
   requires "Theme - Soda.subl_package"
   requires "TomDoc.subl_package"
   requires "TrailingSpaces.subl_package"
+end
+
+dep "os x configured" do
+  requires "screenshots saved in directory".with(:path => "~/Desktop/Screenshots")
 end
