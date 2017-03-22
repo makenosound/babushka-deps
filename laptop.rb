@@ -15,7 +15,6 @@ dep "personal" do
   # Apps
   requires "1password"
   requires "charles"
-  requires "cloak"
   requires "dash"
   requires "doxie"
   requires "firefox"
@@ -32,7 +31,6 @@ dep "personal" do
   requires "rowanj-gitx"
   requires "skype"
   requires "slack"
-  requires "spectacle"
   requires "sublime-text"
   requires "superduper"
   requires "textexpander"
