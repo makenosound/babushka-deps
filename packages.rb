@@ -2,6 +2,7 @@ dep "packages" do
   requires "ack.managed"
   requires "awscli.managed"
   requires "bat.managed"
+  requires "exa.managed"
   requires "httpie.managed"
   requires "jq.managed"
   requires "mas.managed"
@@ -18,6 +19,7 @@ dep "awscli.managed" do
   installs "awscli"
   provides "aws"
 end
+dep "exa.managed"
 dep "httpie.managed" do
   provides "http"
 end
