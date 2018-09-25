@@ -15,45 +15,59 @@ meta :code_extension do
 end
 
 extensions = %w[
-  2gua.rainbow-brackets
   CraigMaslowski.erb
+  IBM.output-colorizer
+  MattiasPernhult.vscode-todo
+  Orta.vscode-danger
+  Rubymaniac.vscode-paste-and-indent
+  bajdzis.vscode-twig-pack
+  castwide.solargraph
+  CoenraadS.bracket-pair-colorizer
   dbaeumer.vscode-eslint
   esbenp.prettier-vscode
   formulahendry.auto-close-tag
   HookyQR.beautify
-  IBM.output-colorizer
   jakelucas.code-file-nav
-  MattiasPernhult.vscode-todo
-  miguel-savignano.ruby-symbols
+  jianbingfang.dupchecker
+  kokororin.vscode-phpfmt
+  mikestead.dotenv
   mrmlnc.vscode-scss
-  Orta.vscode-danger
+  neilbrayfield.php-docblocker
+  neilding.language-liquid
   ow.vscode-subword-navigation
   PeterJausovec.vscode-docker
-  rebornix.Ruby
-  Rubymaniac.vscode-paste-and-indent
-  ryu1kn.annotator
+  pflannery.vscode-versionlens
+  rebornix.ruby
   shardulm94.trailing-spaces
   sianglim.slim
   steve8708.Align
   stkb.rewrap
-  vilicvane.es-quotes
+  teabyii.ayu
+  n.theme-popcorn
+  tonsky.theme-alabaster
+  whatwedo.twig
   wmaurer.change-case
+  yzhang.markdown-all-in-one
+  ziyasal.vscode-open-in-github
 ].each do |ext|
   dep ext, :template => "code_extension"
 end
 
 dep "vscode ruby extension" do
-  requires "rebornix.Ruby"
+  requires "rebornix.ruby"
+  requires "castwide.solargraph"
 
   requires "debase.gem"
   requires "rcodetools.gem"
   requires "rubocop.gem"
   requires "ruby-debug-ide.gem"
+  requires "solargraph.gem"
 end
 dep "debase.gem" do provides nil end
 dep "rcodetools.gem" do provides nil end
 dep "rubocop.gem" do provides nil end
 dep "ruby-debug-ide.gem" do provides nil end
+dep "solargraph.gem" do provides nil end
 
 dep "vscode extensions" do
   extensions.each do |ext|
