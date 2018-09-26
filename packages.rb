@@ -19,6 +19,7 @@ dep "awscli.managed" do
   installs "awscli"
   provides "aws"
 end
+dep "bat.managed"
 dep "exa.managed"
 dep "httpie.managed" do
   provides "http"
