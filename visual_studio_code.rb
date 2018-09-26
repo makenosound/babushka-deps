@@ -40,10 +40,8 @@ extensions = %w[
   rebornix.ruby
   shardulm94.trailing-spaces
   sianglim.slim
-  steve8708.Align
   stkb.rewrap
   teabyii.ayu
-  n.theme-popcorn
   tonsky.theme-alabaster
   whatwedo.twig
   wmaurer.change-case
