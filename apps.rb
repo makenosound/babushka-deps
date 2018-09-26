@@ -19,6 +19,45 @@ dep "mac app store apps" do
   requires "iA Writer.mas"
 end
 
+
+dep "homebrew cask apps" do
+ requires "1password"
+ requires "charles"
+ requires "choosy"
+ requires "dash"
+ requires "divvy"
+ requires "docker"
+ requires "doxie"
+ requires "dropbox"
+ requires "firefox"
+ requires "figma"
+ requires "google-chrome"
+ requires "gpg-suite"
+ requires "hammerspoon"
+ requires "hazel"
+ requires "imagealpha"
+ requires "imageoptim"
+ requires "iterm2"
+ requires "launchbar"
+ requires "licecap"
+ requires "openemu"
+ requires "optimage"
+ requires "paw"
+ requires "postico"
+ requires "rowanj-gitx"
+ requires "rocket"
+ requires "sequel-pro"
+ requires "skype"
+ requires "slack"
+ requires "sketch"
+ requires "superduper"
+ requires "textexpander"
+ requires "transmit"
+ # requires "virtualbox"
+ requires "visual-studio-code"
+ requires "vlc"
+end
+
 # Apps installed from the Mac App Store
 meta :mas do
   accepts_value_for :name, :basename
@@ -71,7 +110,7 @@ dep("Soulver.mas") { id "413965349" }
 dep("iA Writer.mas") { id "775737590" }
 
 # Apps installed from homebrew cask
-def cask(name); dep name, :template => "icelab:cask"; end # Avoid repitition below
+def cask(name); dep name, :template => "icelab:cask"; end # Avoid repetition below
 
 cask "1password"
 cask "charles"
