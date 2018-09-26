@@ -1,5 +1,7 @@
 dep "apps" do
-  requires "mac app store apps"
+  # Disable mas
+  # https://github.com/mas-cli/mas/issues/164
+  # requires "mac app store apps"
   requires "homebrew cask apps"
 end
 
