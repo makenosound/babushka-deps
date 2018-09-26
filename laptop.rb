@@ -14,9 +14,5 @@ dep "personal" do
   requires "macos configured"
   requires "packages"
   requires "apps"
-  requires "launchbar actions"
   requires "vscode extensions"
-
-  # Use fish
-  requires "icelab:shell".with :shell_name => "fish"
 end
