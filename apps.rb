@@ -57,6 +57,7 @@ dep "homebrew cask apps" do
  requires "skype"
  requires "slack"
  requires "sketch"
+ requires "sublime-merge"
  requires "superduper"
  requires "textexpander"
  requires "transmit"
@@ -154,6 +155,14 @@ cask "sequel-pro"
 cask "skype"
 cask "slack"
 cask "sketch"
+dep "sublime-merge.cask", :template => "icelab:cask" do
+  installs "sublime-merge"
+end
+dep "sublime-merge" do
+  requires \
+    "sublime-merge.cask",
+    "smerge bin symlinked"
+end
 cask "superduper"
 cask "textexpander"
 cask "transmit"
@@ -161,3 +170,13 @@ cask "turbo-boost-switcher"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "vlc"
+
+dep "smerge bin symlinked" do
+  met? {
+    "/usr/local/bin/smerge".p.exists?
+  }
+
+  meet {
+    shell! "ln -s '/Applications/Sublime Merge.app/Contents/SharedSupport/bin/smerge' /usr/local/bin"
+  }
+end
