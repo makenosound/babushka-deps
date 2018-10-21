@@ -24,6 +24,7 @@ end
 
 dep "homebrew cask apps" do
  requires "1password"
+#  requires "atext"
  requires "backblaze"
  requires "charles"
  requires "choosy"
@@ -47,6 +48,7 @@ dep "homebrew cask apps" do
  requires "karabiner-elements"
  requires "launchbar"
  requires "licecap"
+ requires "numi"
  requires "openemu"
  requires "optimage"
  requires "paw"
@@ -59,7 +61,6 @@ dep "homebrew cask apps" do
  requires "sketch"
  requires "sublime-merge"
  requires "superduper"
- requires "textexpander"
  requires "transmit"
  requires "turbo-boost-switcher"
  # requires "virtualbox"
@@ -122,6 +123,7 @@ dep("iA Writer.mas") { id "775737590" }
 def cask(name); dep name, :template => "icelab:cask"; end # Avoid repetition below
 
 cask "1password"
+# cask "atext"
 cask "backblaze"
 cask "charles"
 cask "choosy"
@@ -145,6 +147,7 @@ cask "java"
 cask "karabiner-elements"
 cask "launchbar"
 cask "licecap"
+cask "numi"
 cask "openemu"
 cask "optimage"
 cask "paw"
@@ -164,7 +167,6 @@ dep "sublime-merge" do
     "smerge bin symlinked"
 end
 cask "superduper"
-cask "textexpander"
 cask "transmit"
 cask "turbo-boost-switcher"
 cask "virtualbox"
